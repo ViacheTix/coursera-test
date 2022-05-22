@@ -1,0 +1,79 @@
+* {
+	box-sizing:  border-box;
+}
+
+body {
+	font-size: 120%;
+	font-family: Arial, Helvatica, sans-serif;
+}
+
+h1 {
+	font-size: 1.75em;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+section {
+	border: 1px solid black;
+	background-color: #d4a373;
+	position: relative;
+	padding: 30px 10px 0px 10px;
+	margin: 1%;
+}
+
+div {
+	font-size: 1.25em;
+	font-family: "Times New Roman", Times, serif;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	width: 150px;
+	padding: 2px;
+}
+
+div.\31 {
+	background-color: #fefae0;
+} /*I have no clue why class changed its name from .1 to .\31 , so I would like to get an answer. P.s. I found out the true name of the class via inspector */
+
+div.\32 {
+	background-color: #fae2cd;
+}
+
+div.\33 {
+	background-color: #99edc9;
+}
+
+@media (min-width: 992px) {
+	#box1, #box2, #box3 {
+		float: left;
+		align-self: center;
+	}
+	#box1 {
+		width: 31.3%;
+	}
+	#box2 {
+		width: 31.3%;
+	}
+	#box3 {
+		width: 31.3%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#box1, #box2, #box3 {
+		float: left;
+	}
+	#box1 {
+		width: 48%;
+	}
+	#box2 {
+		width: 48%;
+	}
+	#box3 {
+		width: 98%;
+	}
+}
