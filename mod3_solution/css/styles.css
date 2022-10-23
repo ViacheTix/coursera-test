@@ -1,0 +1,146 @@
+body {
+  font-size: 20px;
+  color: #fff;
+  background-color: #E1BB87;
+  font-family: Verdana, Arial, sans-serif;
+}
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3em;
+  text-shadow: 0px 1px 4px #015B7E;
+  font-weight: bold;
+  margin-top: -5px;
+  margin-bottom: 0px;
+}
+h3 {
+  font-size: 0.9em;
+}
+p {
+  font-size: 0.8em;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #005D81;
+  border-radius: 0;
+  border: 0;
+}
+div.navbar-header {
+  height: 58px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Georgia, "Times New Roman", serif;
+  color: #FCFEF9;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px #01587A;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FCFEF9;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #BCDA01;
+}
+#collapsable-nav {
+  padding: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -35px;
+}
+
+div#collapsable-nav.navbar-collapse.collapse.in {
+  background-color: #007097;
+}
+/** END HEADER **/
+
+/** HOME PAGE **/
+#big-tile {
+  background-color: #8F8473;
+  margin-top: 15px;
+  height: 1200px;
+}
+/** END HOME PAGE **/
+
+/** FOOTER **/
+
+/** END FOOTER **/
+
+/** RESPONSIVE CONTENT **/
+/***** LARGE Dev. only *****/
+@media (min-width: 1200px) {
+  /** HOME PAGE **/
+
+  /** END HOME PAGE **/
+}
+
+/***** MEDIUM Dev. only *****/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* HEADER */
+
+  /* END HEADER */
+
+  /** HOME PAGE **/
+}
+
+/***** SMALL Dev. only *****/
+@media (min-width: 768px) and (max-width: 991px) {
+  /** HOME PAGE **/
+
+  /** END HOME PAGE **/
+}
+
+/***** EXTRA SMALL Dev. only *****/
+@media (max-width: 767px) {
+
+  /* HEADER */
+
+  /* END HEADER */
+
+  /** HOME PAGE **/
+
+  /** END HOME PAGE **/
+
+  /** FOOTER **/
+
+  /** END FOOTER **/
+}
+
+/***** SUPER SUPER SMALL Dev. only *****/
+@media (max-width: 479px) {
+
+  /** HEADER **/
+
+  /** END HEADER **/
+
+  /** HOME PAGE **/
+
+  /** END HOME PAGE **/
+}
+
+
